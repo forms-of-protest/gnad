@@ -162,6 +162,13 @@ a{
 .main{
     margin:40px 0;
 }
+@media screen and (min-width:768px){
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+}
 @media screen and (max-width:768px){
     .navbar-nav>li>a {
         border: 1px solid #dadada;
